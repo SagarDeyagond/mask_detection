@@ -1,0 +1,9 @@
+# Core inference dependencies
+tensorflow>=2.12
+opencv-python>=4.5
+numpy>=1.23
+
+# Training / notebooks (optional for inference)
+scikit-learn>=1.1
+matplotlib>=3.5
+imutils>=0.5
