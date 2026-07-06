@@ -1,0 +1,60 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.python-version
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets and training artifacts
+data/
+dataset/
+datasets/
+logs/
+runs/
+checkpoints/
+*.tfevents.*
+
+# Model files (keep the shipped pretrained models tracked)
+*.h5
+*.hdf5
+*.keras
+*.caffemodel
+*.pb
+*.onnx
+*.tflite
+!models/face_mask_detector.h5
+!models/res10_300x300_ssd_iter_140000.caffemodel
+
+# Editors / IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
+.env
